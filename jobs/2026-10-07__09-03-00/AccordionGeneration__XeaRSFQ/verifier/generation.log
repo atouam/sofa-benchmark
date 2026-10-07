@@ -1,0 +1,16 @@
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /tmp/accordion-submitted-s_t0tv8z/mesh/Accordion_Parametric.step(1107 ents)  Write  Done[0m
+Wrote meshes to /tmp/accordion-submitted-s_t0tv8z/mesh
+  cavity_triangles: 186
+  cavity_vertices: 95
+  surface_triangles: 1122
+  surface_vertices: 563
+  tetrahedra: 2046
+  volume_vertices: 650

@@ -1,0 +1,26 @@
+{
+  "name": "SOFAgym",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "SOFA_ZIP_URL": "https://github.com/sofa-framework/sofa/releases/download/v23.06.00/SOFA_v23.06.00_Linux.zip"
+    }
+  },
+  "remoteUser": "vscode",
+  "runArgs": [
+    "--env=DISPLAY=${localEnv:DISPLAY}",
+    "--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw",
+    "--gpus=all"
+  ],
+  "features": {
+    "ghcr.io/va-h/devcontainers-features/uv:1": {}
+  },
+  "postCreateCommand": "ln -sfn /opt/sofa /workspaces/${localWorkspaceFolderBasename}/sofa",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "reward": 0,
+  "checks": {
+    "generation": false,
+    "outputs": false,
+    "scene": false
+  },
+  "generation": {
+    "exit_code": 1,
+    "wall_time_s": 1.121
+  },
+  "outputs": {},
+  "mesh_quality": {},
+  "mesh_preview": {
+    "status": "skipped"
+  },
+  "scene": {},
+  "error": "generation: Generator exited unsuccessfully; see generation.log",
+  "wall_time_s": 1.155
+}

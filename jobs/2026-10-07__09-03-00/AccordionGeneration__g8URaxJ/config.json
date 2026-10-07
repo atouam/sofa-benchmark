@@ -1,0 +1,19 @@
+{
+    "task": {
+        "path": "tasks\\AccordionGeneration"
+    },
+    "trial_name": "AccordionGeneration__g8URaxJ",
+    "trials_dir": "jobs\\2026-10-07__09-03-00",
+    "agent": {
+        "name": "pi",
+        "model_name": "openai/qwen/qwen3.5-9b",
+        "kwargs": {
+            "model_api": "openai-completions"
+        },
+        "env": {
+            "OPENAI_BASE_URL": "http://host.docker.internal:1234/v1",
+            "OPENAI_API_KEY": "lm-s****der"
+        }
+    },
+    "job_id": "e867c0cc-0aad-4470-b102-0ac6ef1f5ea8"
+}

@@ -1,0 +1,42 @@
+---------------------------------------
+Checking SOFA_ROOT and SOFAPYTHON3_ROOT
+Using environment variable SOFA_ROOT: /opt/sofa
+---------------------------------------
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/plugins/STLIB/lib/libSTLIB.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/plugins/SoftRobots/lib/libSoftRobots.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.AnimationLoop.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Constraint.Lagrangian.Correction.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Constraint.Lagrangian.Solver.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Engine.Select.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.IO.Mesh.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.LinearSolver.Direct.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.LinearSystem.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Mapping.Linear.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Mass.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.ODESolver.Backward.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.SolidMechanics.FEM.Elastic.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.SolidMechanics.Spring.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.StateContainer.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Topology.Container.Dynamic.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Topology.Container.Constant.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Topology.Mapping.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.Component.Visual.so
+[INFO]    [PluginManager] Loaded plugin: /opt/sofa/lib/libSofa.GL.Component.Rendering3D.so
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "steps": 20,
+  "vertices": 2210,
+  "tetrahedra": 7556,
+  "cavity_triangles": 1148,
+  "time_s": 0.20000000000000004,
+  "pressure_value": [
+    16.0
+  ],
+  "max_displacement_mm": 3.8790710595583686
+}
+[INFO]    [SofaPython3.Simulation] Sofa.Simulation unload()
+[INFO]    [SofaPython3] Clearing Sofa.Core cache...
+[INFO]    [SofaPython3.Core] Sofa.Core unload()
+[INFO]    [SofaPython3.Helper] Sofa.Helper unload()

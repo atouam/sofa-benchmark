@@ -1,0 +1,128 @@
+{
+    "id": "1579abab-b3bb-4656-bee6-18515d076191",
+    "task_name": "sofa-benchmark/AccordionGeneration",
+    "trial_name": "AccordionGeneration__a2S7L5E",
+    "trial_uri": "file:///C:/Users/abto/Desktop/sofa/jobs/2026-10-07__09-03-00/AccordionGeneration__a2S7L5E",
+    "task_id": {
+        "path": "tasks\\AccordionGeneration"
+    },
+    "source": null,
+    "task_checksum": "a1cff58b03ca9d47d086e1c8d6d3e1440a4d1fad1c08d67186323511dfec9d2a",
+    "config": {
+        "task": {
+            "path": "tasks\\AccordionGeneration",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "AccordionGeneration__a2S7L5E",
+        "trials_dir": "jobs\\2026-10-07__09-03-00",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "disable_web_search": true
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "e867c0cc-0aad-4470-b102-0ac6ef1f5ea8",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "1.18.35",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 2734542,
+        "n_cache_tokens": 2652672,
+        "n_output_tokens": 12385,
+        "cost_usd": 0.11689853999999997,
+        "model_usage": {
+            "openrouter/deepseek/deepseek-v4.1-flash": {
+                "n_input_tokens": 2734542,
+                "n_cache_tokens": 2652672,
+                "n_output_tokens": 12385,
+                "cost_usd": 0.11689853999999997
+            }
+        },
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-10-07T07:13:38.025449Z",
+    "finished_at": "2026-10-07T07:23:13.451781Z",
+    "environment_setup": {
+        "started_at": "2026-10-07T07:13:38.037005Z",
+        "finished_at": "2026-10-07T07:13:41.978998Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-07T07:13:41.979031Z",
+        "finished_at": "2026-10-07T07:15:14.367627Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-07T07:15:14.367783Z",
+        "finished_at": "2026-10-07T07:22:48.640229Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-07T07:22:54.110702Z",
+        "finished_at": "2026-10-07T07:23:13.451767Z"
+    },
+    "step_results": null
+}

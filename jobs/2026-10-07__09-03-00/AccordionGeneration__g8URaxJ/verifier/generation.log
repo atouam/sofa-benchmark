@@ -1,0 +1,8 @@
+Error   : Gmsh has not been initialized
+Traceback (most recent call last):
+  File "/tmp/accordion-submitted-d_popmzs/AccordionGeneration.py", line 236, in <module>
+    create_accordion()
+  File "/tmp/accordion-submitted-d_popmzs/AccordionGeneration.py", line 50, in create_accordion
+    pt_tag = gmsh.model.geo.addPoint(x, y, z, mesh_size * 1e3, "Linear", -1)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: model.geo.addPoint() takes from 3 to 5 positional arguments but 6 were given

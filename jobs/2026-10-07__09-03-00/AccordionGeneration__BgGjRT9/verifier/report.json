@@ -1,0 +1,116 @@
+{
+  "reward": 1,
+  "checks": {
+    "generation": true,
+    "outputs": true,
+    "scene": true
+  },
+  "generation": {
+    "exit_code": 0,
+    "wall_time_s": 2.223
+  },
+  "outputs": {
+    "exit_code": 0,
+    "wall_time_s": 0.166,
+    "passed": true,
+    "metrics": {
+      "Accordion_Volumetric.vtk": {
+        "vertices": 3518,
+        "elements": 14706,
+        "element_type": "tetra"
+      },
+      "Accordion_Surface.stl": {
+        "vertices": 2264,
+        "elements": 4520,
+        "element_type": "triangle"
+      },
+      "Accordion_Cavity.stl": {
+        "vertices": 42,
+        "elements": 80,
+        "element_type": "triangle"
+      },
+      "Accordion_Parametric.step": {
+        "imported_entities": 1
+      }
+    }
+  },
+  "mesh_quality": {
+    "exit_code": 0,
+    "wall_time_s": 0.166,
+    "status": "ok",
+    "meshes": {
+      "Accordion_Volumetric.vtk": {
+        "dimension": 3,
+        "elements": 14706,
+        "measures": {
+          "minDetJac": {
+            "count": 14706,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 4.481592626750593,
+            "mean": 47.554075935576655
+          },
+          "minSICN": {
+            "count": 14706,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 0.27262072660194536,
+            "mean": 0.8081673363823082
+          }
+        }
+      },
+      "Accordion_Surface.stl": {
+        "dimension": 2,
+        "elements": 4520,
+        "measures": {
+          "minSICN": {
+            "count": 4520,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 0.41703376159010297,
+            "mean": 0.9512788668239025
+          }
+        }
+      },
+      "Accordion_Cavity.stl": {
+        "dimension": 2,
+        "elements": 80,
+        "measures": {
+          "minSICN": {
+            "count": 80,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 0.05948142419345907,
+            "mean": 0.46705182440310794
+          }
+        }
+      }
+    }
+  },
+  "mesh_preview": {
+    "status": "ok",
+    "exit_code": 0,
+    "wall_time_s": 1.119,
+    "file": "mesh.png"
+  },
+  "scene": {
+    "exit_code": 0,
+    "wall_time_s": 16.915,
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      "MeshVTKLoader: Data field name 'CellEntityIds' already used as a Data in this class or in a parent class"
+    ],
+    "steps": 20,
+    "vertices": 3518,
+    "tetrahedra": 14706,
+    "cavity_triangles": 80,
+    "time_s": 0.20000000000000004,
+    "pressure_value": [
+      16.0
+    ],
+    "max_displacement_mm": 17.176852268998257
+  },
+  "error": null,
+  "wall_time_s": 20.659
+}

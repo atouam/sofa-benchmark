@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "metrics": {
+    "Accordion_Volumetric.vtk": {
+      "vertices": 3518,
+      "elements": 14706,
+      "element_type": "tetra"
+    },
+    "Accordion_Surface.stl": {
+      "vertices": 2264,
+      "elements": 4520,
+      "element_type": "triangle"
+    },
+    "Accordion_Cavity.stl": {
+      "vertices": 42,
+      "elements": 80,
+      "element_type": "triangle"
+    },
+    "Accordion_Parametric.step": {
+      "imported_entities": 1
+    }
+  }
+}

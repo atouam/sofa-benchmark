@@ -1,0 +1,114 @@
+{
+  "reward": 1,
+  "checks": {
+    "generation": true,
+    "outputs": true,
+    "scene": true
+  },
+  "generation": {
+    "exit_code": 0,
+    "wall_time_s": 0.469
+  },
+  "outputs": {
+    "exit_code": 0,
+    "wall_time_s": 0.166,
+    "passed": true,
+    "metrics": {
+      "Accordion_Volumetric.vtk": {
+        "vertices": 949,
+        "elements": 2973,
+        "element_type": "tetra"
+      },
+      "Accordion_Surface.stl": {
+        "vertices": 917,
+        "elements": 1826,
+        "element_type": "triangle"
+      },
+      "Accordion_Cavity.stl": {
+        "vertices": 298,
+        "elements": 592,
+        "element_type": "triangle"
+      },
+      "Accordion_Parametric.step": {
+        "imported_entities": 1
+      }
+    }
+  },
+  "mesh_quality": {
+    "exit_code": 0,
+    "wall_time_s": 0.116,
+    "status": "ok",
+    "meshes": {
+      "Accordion_Volumetric.vtk": {
+        "dimension": 3,
+        "elements": 2973,
+        "measures": {
+          "minDetJac": {
+            "count": 2973,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 1.111078484182486,
+            "mean": 10.369742903680164
+          },
+          "minSICN": {
+            "count": 2973,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 0.20193011262343116,
+            "mean": 0.7417107608988674
+          }
+        }
+      },
+      "Accordion_Surface.stl": {
+        "dimension": 2,
+        "elements": 1826,
+        "measures": {
+          "minSICN": {
+            "count": 1826,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 0.36621796596351147,
+            "mean": 0.9269390400873565
+          }
+        }
+      },
+      "Accordion_Cavity.stl": {
+        "dimension": 2,
+        "elements": 592,
+        "measures": {
+          "minSICN": {
+            "count": 592,
+            "non_finite_count": 0,
+            "non_positive_count": 0,
+            "minimum": 0.36621796596351264,
+            "mean": 0.9092022129404603
+          }
+        }
+      }
+    }
+  },
+  "mesh_preview": {
+    "status": "ok",
+    "exit_code": 0,
+    "wall_time_s": 0.567,
+    "file": "mesh.png"
+  },
+  "scene": {
+    "exit_code": 0,
+    "wall_time_s": 1.069,
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "steps": 20,
+    "vertices": 949,
+    "tetrahedra": 2973,
+    "cavity_triangles": 592,
+    "time_s": 0.20000000000000004,
+    "pressure_value": [
+      16.0
+    ],
+    "max_displacement_mm": 1.4660655598242414
+  },
+  "error": null,
+  "wall_time_s": 2.42
+}

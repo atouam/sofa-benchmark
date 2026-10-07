@@ -1,0 +1,15 @@
+{
+    "task": {
+        "path": "tasks\\AccordionGeneration"
+    },
+    "trial_name": "AccordionGeneration__NZoWJae",
+    "trials_dir": "jobs\\2026-10-07__09-03-00",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6.1-sol",
+        "kwargs": {
+            "web_search": "disabled"
+        }
+    },
+    "job_id": "e867c0cc-0aad-4470-b102-0ac6ef1f5ea8"
+}

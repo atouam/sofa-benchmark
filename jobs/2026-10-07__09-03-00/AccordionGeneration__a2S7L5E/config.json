@@ -1,0 +1,15 @@
+{
+    "task": {
+        "path": "tasks\\AccordionGeneration"
+    },
+    "trial_name": "AccordionGeneration__a2S7L5E",
+    "trials_dir": "jobs\\2026-10-07__09-03-00",
+    "agent": {
+        "name": "opencode",
+        "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+        "kwargs": {
+            "disable_web_search": true
+        }
+    },
+    "job_id": "e867c0cc-0aad-4470-b102-0ac6ef1f5ea8"
+}

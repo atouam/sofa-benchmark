@@ -1,0 +1,43 @@
+
+jobs_dir: jobs
+n_attempts: 1
+n_concurrent_trials: 1
+
+retry:
+  max_retries: 0
+
+environment:
+  type: docker
+
+tasks:
+  - path: tasks/AccordionGeneration
+
+agents:
+  - name: oracle
+
+  - name: codex
+    model_name: openai/gpt-6.1-sol
+    kwargs:
+      web_search: disabled
+
+  - name: codex
+    model_name: openai/gpt-6-luna
+    kwargs:
+      web_search: disabled
+
+  - name: opencode
+    model_name: openrouter/deepseek/deepseek-v4.1-flash
+    kwargs:
+      disable_web_search: true
+
+  - name: pi
+    model_name: openrouter/deepseek/deepseek-v4.1-flash
+
+  # Local Qwen through LM Studio's OpenAI-compatible API.
+  - name: pi
+    model_name: openai/qwen/qwen3.5-9b
+    kwargs:
+      model_api: openai-completions
+    env:
+      OPENAI_BASE_URL: http://host.docker.internal:1234/v1
+      OPENAI_API_KEY: lm-studio-local-client-placeholder

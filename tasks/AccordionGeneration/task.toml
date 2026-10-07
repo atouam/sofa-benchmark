@@ -1,0 +1,42 @@
+schema_version = "1.4"
+artifacts = [{ source = "/app/AccordionGeneration.py", destination = "AccordionGeneration.py" }]
+
+[task]
+name = "sofa-benchmark/AccordionGeneration"
+version = "1.0.0"
+description = "Generate parametric actuator meshes compatible with the supplied SOFA pressure scene."
+authors = []
+keywords = []
+
+[metadata]
+
+[verifier]
+timeout_sec = 180.0
+environment_mode = "separate"
+network_mode = "no-network"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 600.0
+os = "linux"
+workdir = "/app"
+cpus = 1
+memory_mb = 2048
+storage_mb = 8192
+mcp_servers = []
+
+[environment.env]
+
+[verifier.environment]
+workdir = "/app"
+cpus = 1
+memory_mb = 2048
+storage_mb = 8192
+
+[solution.env]

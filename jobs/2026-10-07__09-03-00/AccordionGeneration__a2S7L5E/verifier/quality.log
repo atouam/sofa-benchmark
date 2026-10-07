@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "meshes": {
+    "Accordion_Volumetric.vtk": {
+      "dimension": 3,
+      "elements": 7556,
+      "measures": {
+        "minDetJac": {
+          "count": 7556,
+          "non_finite_count": 0,
+          "non_positive_count": 0,
+          "minimum": 0.21118929324656485,
+          "mean": 2.7190776462321233
+        },
+        "minSICN": {
+          "count": 7556,
+          "non_finite_count": 0,
+          "non_positive_count": 0,
+          "minimum": 0.31140402166025355,
+          "mean": 0.7790412223347614
+        }
+      }
+    },
+    "Accordion_Surface.stl": {
+      "dimension": 2,
+      "elements": 2500,
+      "measures": {
+        "minSICN": {
+          "count": 2500,
+          "non_finite_count": 0,
+          "non_positive_count": 0,
+          "minimum": 0.7291236368624076,
+          "mean": 0.9540008431425878
+        }
+      }
+    },
+    "Accordion_Cavity.stl": {
+      "dimension": 2,
+      "elements": 1148,
+      "measures": {
+        "minSICN": {
+          "count": 1148,
+          "non_finite_count": 0,
+          "non_positive_count": 0,
+          "minimum": 0.7288104901156995,
+          "mean": 0.9488024064653495
+        }
+      }
+    }
+  }
+}

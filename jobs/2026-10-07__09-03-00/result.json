@@ -1,0 +1,133 @@
+{
+    "id": "e867c0cc-0aad-4470-b102-0ac6ef1f5ea8",
+    "started_at": "2026-10-07T09:03:02.445990",
+    "updated_at": "2026-10-07T09:44:02.841794",
+    "finished_at": "2026-10-07T09:44:02.841794",
+    "n_total_trials": 6,
+    "stats": {
+        "n_completed_trials": 6,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "AccordionGeneration__BgGjRT9"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-6.1-sol__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "AccordionGeneration__NZoWJae"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "codex__gpt-6-luna__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "AccordionGeneration__vvUBaeF"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "opencode__deepseek/deepseek-v4.1-flash__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "AccordionGeneration__a2S7L5E"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "pi__deepseek/deepseek-v4.1-flash__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "AccordionGeneration__XeaRSFQ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "pi__qwen/qwen3.5-9b__adhoc": {
+                "n_trials": 1,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "AccordionGeneration__g8URaxJ"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "AgentTimeoutError": [
+                        "AccordionGeneration__g8URaxJ"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 4230953,
+        "n_cache_tokens": 3852288,
+        "n_output_tokens": 96705,
+        "cost_usd": 0.35212126399999993
+    }
+}

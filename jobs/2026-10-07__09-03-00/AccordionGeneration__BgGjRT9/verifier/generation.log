@@ -1,0 +1,223 @@
+Info    : Writing 'Accordion_Parametric.step'...
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : Accordion_Parametric.step(2385 ents)  Write  Done[0m
+Info    : Done writing 'Accordion_Parametric.step'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Circle)
+Info    : [ 10%] Meshing curve 2 (Circle)
+Info    : [ 10%] Meshing curve 3 (Line)
+Info    : [ 10%] Meshing curve 4 (Line)
+Info    : [ 10%] Meshing curve 5 (Circle)
+Info    : [ 10%] Meshing curve 6 (TrimmedCurve)
+Info    : [ 10%] Meshing curve 7 (Circle)
+Info    : [ 20%] Meshing curve 8 (Line)
+Info    : [ 20%] Meshing curve 9 (Line)
+Info    : [ 20%] Meshing curve 10 (TrimmedCurve)
+Info    : [ 20%] Meshing curve 11 (Circle)
+Info    : [ 20%] Meshing curve 12 (Line)
+Info    : [ 20%] Meshing curve 13 (Circle)
+Info    : [ 20%] Meshing curve 14 (Line)
+Info    : [ 30%] Meshing curve 15 (Line)
+Info    : [ 30%] Meshing curve 16 (TrimmedCurve)
+Info    : [ 30%] Meshing curve 17 (Circle)
+Info    : [ 30%] Meshing curve 18 (Line)
+Info    : [ 30%] Meshing curve 19 (Line)
+Info    : [ 30%] Meshing curve 20 (TrimmedCurve)
+Info    : [ 40%] Meshing curve 21 (Circle)
+Info    : [ 40%] Meshing curve 22 (Line)
+Info    : [ 40%] Meshing curve 23 (Line)
+Info    : [ 40%] Meshing curve 24 (TrimmedCurve)
+Info    : [ 40%] Meshing curve 25 (Circle)
+Info    : [ 40%] Meshing curve 26 (Line)
+Info    : [ 40%] Meshing curve 27 (Line)
+Info    : [ 50%] Meshing curve 28 (TrimmedCurve)
+Info    : [ 50%] Meshing curve 29 (Line)
+Info    : [ 50%] Meshing curve 30 (Circle)
+Info    : [ 50%] Meshing curve 31 (Line)
+Info    : [ 50%] Meshing curve 32 (TrimmedCurve)
+Info    : [ 50%] Meshing curve 33 (BSpline)
+Info    : [ 60%] Meshing curve 34 (Circle)
+Info    : [ 60%] Meshing curve 37 (Circle)
+Info    : [ 60%] Meshing curve 38 (Circle)
+Info    : [ 60%] Meshing curve 39 (Line)
+Info    : [ 60%] Meshing curve 40 (Line)
+Info    : [ 70%] Meshing curve 41 (Circle)
+Info    : [ 70%] Meshing curve 42 (Line)
+Info    : [ 70%] Meshing curve 43 (Line)
+Info    : [ 70%] Meshing curve 44 (TrimmedCurve)
+Info    : [ 70%] Meshing curve 45 (TrimmedCurve)
+Info    : [ 70%] Meshing curve 46 (Circle)
+Info    : [ 70%] Meshing curve 47 (Line)
+Info    : [ 80%] Meshing curve 48 (Line)
+Info    : [ 80%] Meshing curve 49 (TrimmedCurve)
+Info    : [ 80%] Meshing curve 50 (Circle)
+Info    : [ 80%] Meshing curve 51 (Line)
+Info    : [ 80%] Meshing curve 52 (Line)
+Info    : [ 80%] Meshing curve 53 (TrimmedCurve)
+Info    : [ 90%] Meshing curve 54 (Circle)
+Info    : [ 90%] Meshing curve 55 (Line)
+Info    : [ 90%] Meshing curve 56 (Line)
+Info    : [ 90%] Meshing curve 57 (TrimmedCurve)
+Info    : [ 90%] Meshing curve 58 (Circle)
+Info    : [ 90%] Meshing curve 59 (Line)
+Info    : [ 90%] Meshing curve 60 (Line)
+Info    : [100%] Meshing curve 61 (TrimmedCurve)
+Info    : [100%] Meshing curve 62 (Line)
+Info    : [100%] Meshing curve 63 (Line)
+Info    : [100%] Meshing curve 64 (Circle)
+Info    : [100%] Meshing curve 65 (TrimmedCurve)
+Info    : [100%] Meshing curve 66 (BSpline)
+Info    : Done meshing 1D (Wall 0.0724827s, CPU 0.042884s)
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 1 (Cone, Frontal-Delaunay)
+Info    : [ 10%] Meshing surface 2 (Plane, Frontal-Delaunay)
+Info    : [ 10%] Meshing surface 3 (Cone, Frontal-Delaunay)
+Info    : [ 10%] Meshing surface 4 (BSpline surface, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 5 (Cylinder, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 6 (Cone, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 7 (BSpline surface, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 8 (Plane, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 9 (Cone, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 10 (BSpline surface, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 11 (Cone, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 12 (BSpline surface, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 13 (Cone, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 14 (BSpline surface, Frontal-Delaunay)
+Info    : [ 50%] Meshing surface 15 (Cone, Frontal-Delaunay)
+Info    : [ 50%] Meshing surface 16 (BSpline surface, Frontal-Delaunay)
+Info    : [ 50%] Meshing surface 17 (BSpline surface, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 18 (Sphere, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 19 (Cone, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 20 (Cone, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 21 (Plane, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 22 (BSpline surface, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 23 (Cone, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 24 (BSpline surface, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 25 (Cone, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 26 (BSpline surface, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 27 (Cone, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 28 (BSpline surface, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 29 (Cone, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 30 (BSpline surface, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 31 (Cone, Frontal-Delaunay)
+Info    : [100%] Meshing surface 32 (BSpline surface, Frontal-Delaunay)
+Info    : [100%] Meshing surface 33 (BSpline surface, Frontal-Delaunay)
+Info    : [100%] Meshing surface 34 (Sphere, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0938169s, CPU 0.077355s)
+Info    : 2264 nodes 5219 elements
+Info    : Writing 'Accordion_Surface.stl'...
+Info    : Done writing 'Accordion_Surface.stl'
+Info    : Meshing 3D...
+Info    : 3D Meshing 1 volume with 1 connected component
+Info    : Tetrahedrizing 2264 nodes...
+Info    : Done tetrahedrizing 2272 nodes (Wall 0.0195298s, CPU 0.018995s)
+Info    : Reconstructing mesh...
+Info    :  - Creating surface mesh
+Info    :  - Identifying boundary edges
+Info    :  - Recovering boundary
+Info    : Done reconstructing mesh (Wall 0.0418723s, CPU 0.039153s)
+Info    : Found volume 1
+Info    : Found void region
+Info    : It. 0 - 0 nodes created - worst tet radius 8.60981 (nodes removed 0 0)
+Info    : It. 500 - 500 nodes created - worst tet radius 1.28758 (nodes removed 0 0)
+Info    : It. 1000 - 1000 nodes created - worst tet radius 1.06316 (nodes removed 0 0)
+Info    : 3D refinement terminated (3518 nodes total):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 nodes could not be inserted
+Info    :  - 15001 tetrahedra created in 0.0441961 sec. (339418 tets/s)
+Info    : 0 node relocations
+Info    : Done meshing 3D (Wall 0.119905s, CPU 0.112167s)
+Info    : Optimizing mesh...
+Info    : Optimizing volume 1
+Info    : Optimization starts (volume = 116555) with worst = 0.0246784 / average = 0.76819:
+Info    : 0.00 < quality < 0.10 :        45 elements
+Info    : 0.10 < quality < 0.20 :       115 elements
+Info    : 0.20 < quality < 0.30 :       155 elements
+Info    : 0.30 < quality < 0.40 :       271 elements
+Info    : 0.40 < quality < 0.50 :       391 elements
+Info    : 0.50 < quality < 0.60 :       679 elements
+Info    : 0.60 < quality < 0.70 :      1899 elements
+Info    : 0.70 < quality < 0.80 :      3663 elements
+Info    : 0.80 < quality < 0.90 :      5595 elements
+Info    : 0.90 < quality < 1.00 :      2188 elements
+Info    : 312 edge swaps, 5 node relocations (volume = 116555): worst = 0.230521 / average = 0.78162 (Wall 0.00747914s, CPU 0.004152s)
+Info    : 314 edge swaps, 5 node relocations (volume = 116555): worst = 0.276586 / average = 0.781715 (Wall 0.0085681s, CPU 0.004909s)
+Info    : No ill-shaped tets in the mesh :-)
+Info    : 0.00 < quality < 0.10 :         0 elements
+Info    : 0.10 < quality < 0.20 :         0 elements
+Info    : 0.20 < quality < 0.30 :         1 elements
+Info    : 0.30 < quality < 0.40 :       268 elements
+Info    : 0.40 < quality < 0.50 :       368 elements
+Info    : 0.50 < quality < 0.60 :       656 elements
+Info    : 0.60 < quality < 0.70 :      1889 elements
+Info    : 0.70 < quality < 0.80 :      3708 elements
+Info    : 0.80 < quality < 0.90 :      5634 elements
+Info    : 0.90 < quality < 1.00 :      2182 elements
+Info    : Done optimizing mesh (Wall 0.0217777s, CPU 0.012489s)
+Info    : 3518 nodes 19925 elements
+Info    : Writing 'Accordion_Volumetric.vtk'...
+Info    : Done writing 'Accordion_Volumetric.vtk'
+Info    : Clearing all models and views...
+Info    : Done clearing all models and views
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Circle)
+Info    : [ 10%] Meshing curve 2 (TrimmedCurve)
+Info    : [ 10%] Meshing curve 3 (Circle)
+Info    : [ 20%] Meshing curve 4 (Line)
+Info    : [ 20%] Meshing curve 5 (Line)
+Info    : [ 20%] Meshing curve 6 (TrimmedCurve)
+Info    : [ 30%] Meshing curve 7 (Circle)
+Info    : [ 30%] Meshing curve 8 (Line)
+Info    : [ 30%] Meshing curve 9 (Line)
+Info    : [ 40%] Meshing curve 10 (TrimmedCurve)
+Info    : [ 40%] Meshing curve 11 (Circle)
+Info    : [ 40%] Meshing curve 12 (Line)
+Info    : [ 50%] Meshing curve 13 (Line)
+Info    : [ 50%] Meshing curve 14 (TrimmedCurve)
+Info    : [ 50%] Meshing curve 15 (Circle)
+Info    : [ 60%] Meshing curve 16 (Line)
+Info    : [ 60%] Meshing curve 17 (Line)
+Info    : [ 60%] Meshing curve 18 (TrimmedCurve)
+Info    : [ 70%] Meshing curve 19 (Circle)
+Info    : [ 70%] Meshing curve 20 (Line)
+Info    : [ 70%] Meshing curve 21 (Line)
+Info    : [ 80%] Meshing curve 22 (TrimmedCurve)
+Info    : [ 80%] Meshing curve 23 (Circle)
+Info    : [ 80%] Meshing curve 24 (Line)
+Info    : [ 90%] Meshing curve 25 (Line)
+Info    : [ 90%] Meshing curve 26 (TrimmedCurve)
+Info    : [ 90%] Meshing curve 27 (Line)
+Info    : [100%] Meshing curve 28 (Circle)
+Info    : [100%] Meshing curve 29 (Line)
+Info    : [100%] Meshing curve 30 (BSpline)
+Info    : Done meshing 1D (Wall 0.0256515s, CPU 0.01132s)
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : [ 10%] Meshing surface 2 (Cone, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 3 (BSpline surface, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 4 (Cone, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 5 (BSpline surface, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 6 (Cone, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 7 (BSpline surface, Frontal-Delaunay)
+Info    : [ 50%] Meshing surface 8 (Cone, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 9 (BSpline surface, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 10 (Cone, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 11 (BSpline surface, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 12 (Cone, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 13 (BSpline surface, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 14 (Cone, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 15 (BSpline surface, Frontal-Delaunay)
+Info    : [100%] Meshing surface 16 (Sphere, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0124156s, CPU 0.00555s)
+Info    : 42 nodes 150 elements
+Info    : Writing 'Accordion_Cavity.stl'...
+Info    : Done writing 'Accordion_Cavity.stl'
+Showing Step: 10
+HalfCopyDimTag:  [(3, 2)]

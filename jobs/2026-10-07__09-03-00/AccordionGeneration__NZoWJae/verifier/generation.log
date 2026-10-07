@@ -1,0 +1,129 @@
+Info    : Writing '/tmp/accordion-submitted-mqicw1df/mesh/Accordion_Parametric.step'...
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /tmp/accordion-submitted-mqicw1df/mesh/Accordion_Parametric.step(1206 ents)  Write  Done[0m
+Info    : Done writing '/tmp/accordion-submitted-mqicw1df/mesh/Accordion_Parametric.step'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 2 (Line)
+Info    : [ 10%] Meshing curve 3 (Line)
+Info    : [ 10%] Meshing curve 4 (Line)
+Info    : [ 10%] Meshing curve 5 (Line)
+Info    : [ 10%] Meshing curve 6 (Line)
+Info    : [ 20%] Meshing curve 7 (Line)
+Info    : [ 20%] Meshing curve 8 (Line)
+Info    : [ 20%] Meshing curve 9 (Line)
+Info    : [ 20%] Meshing curve 10 (Line)
+Info    : [ 30%] Meshing curve 11 (Line)
+Info    : [ 30%] Meshing curve 26 (Line)
+Info    : [ 30%] Meshing curve 27 (Line)
+Info    : [ 30%] Meshing curve 28 (Line)
+Info    : [ 40%] Meshing curve 29 (Line)
+Info    : [ 40%] Meshing curve 30 (Line)
+Info    : [ 40%] Meshing curve 31 (Line)
+Info    : [ 40%] Meshing curve 32 (Line)
+Info    : [ 50%] Meshing curve 33 (Line)
+Info    : [ 50%] Meshing curve 34 (Line)
+Info    : [ 50%] Meshing curve 35 (Line)
+Info    : [ 50%] Meshing curve 38 (Circle)
+Info    : [ 60%] Meshing curve 39 (Circle)
+Info    : [ 60%] Meshing curve 40 (Circle)
+Info    : [ 60%] Meshing curve 41 (Circle)
+Info    : [ 60%] Meshing curve 42 (Circle)
+Info    : [ 60%] Meshing curve 43 (Circle)
+Info    : [ 70%] Meshing curve 44 (Circle)
+Info    : [ 70%] Meshing curve 45 (Circle)
+Info    : [ 70%] Meshing curve 46 (Circle)
+Info    : [ 70%] Meshing curve 47 (Circle)
+Info    : [ 80%] Meshing curve 48 (Circle)
+Info    : [ 80%] Meshing curve 49 (Circle)
+Info    : [ 80%] Meshing curve 50 (Circle)
+Info    : [ 80%] Meshing curve 51 (Circle)
+Info    : [ 90%] Meshing curve 52 (Circle)
+Info    : [ 90%] Meshing curve 53 (Circle)
+Info    : [ 90%] Meshing curve 54 (Circle)
+Info    : [ 90%] Meshing curve 55 (Circle)
+Info    : [100%] Meshing curve 56 (Circle)
+Info    : [100%] Meshing curve 57 (Circle)
+Info    : [100%] Meshing curve 58 (Circle)
+Info    : [100%] Meshing curve 59 (Circle)
+Info    : Done meshing 1D (Wall 0.0174622s, CPU 0.003867s)
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 15 (Plane, Frontal-Delaunay)
+Info    : [ 10%] Meshing surface 16 (Cylinder, Frontal-Delaunay)
+Info    : [ 10%] Meshing surface 17 (Cone, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 18 (Cone, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 19 (Cone, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 20 (Cone, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 21 (Cone, Frontal-Delaunay)
+Info    : [ 30%] Meshing surface 22 (Cone, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 23 (Cone, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 24 (Cone, Frontal-Delaunay)
+Info    : [ 50%] Meshing surface 25 (Cylinder, Frontal-Delaunay)
+Info    : [ 50%] Meshing surface 26 (Plane, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 27 (Plane, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 28 (Cylinder, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 29 (Cone, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 30 (Cone, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 31 (Cone, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 32 (Cone, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 33 (Cone, Frontal-Delaunay)
+Info    : [ 80%] Meshing surface 34 (Cone, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 35 (Cone, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 36 (Cone, Frontal-Delaunay)
+Info    : [100%] Meshing surface 37 (Cylinder, Frontal-Delaunay)
+Info    : [100%] Meshing surface 38 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.037332s, CPU 0.028385s)
+Info    : Meshing 3D...
+Info    : 3D Meshing 1 volume with 1 connected component
+Info    : Tetrahedrizing 917 nodes...
+Info    : Done tetrahedrizing 925 nodes (Wall 0.00846134s, CPU 0.008461s)
+Info    : Reconstructing mesh...
+Info    :  - Creating surface mesh
+Info    :  - Identifying boundary edges
+Info    :  - Recovering boundary
+Info    : Done reconstructing mesh (Wall 0.0224588s, CPU 0.017148s)
+Info    : Found void region
+Info    : Found volume 1
+Info    : It. 0 - 0 nodes created - worst tet radius 1.1588 (nodes removed 0 0)
+Info    : 3D refinement terminated (949 nodes total):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 nodes could not be inserted
+Info    :  - 3025 tetrahedra created in 0.00194229 sec. (1557442 tets/s)
+Info    : 0 node relocations
+Info    : Done meshing 3D (Wall 0.0386118s, CPU 0.02573s)
+Info    : Optimizing mesh...
+Info    : Optimizing volume 1
+Info    : Optimization starts (volume = 5138.21) with worst = 0.0123122 / average = 0.696697:
+Info    : 0.00 < quality < 0.10 :        19 elements
+Info    : 0.10 < quality < 0.20 :        21 elements
+Info    : 0.20 < quality < 0.30 :        45 elements
+Info    : 0.30 < quality < 0.40 :        66 elements
+Info    : 0.40 < quality < 0.50 :       108 elements
+Info    : 0.50 < quality < 0.60 :       377 elements
+Info    : 0.60 < quality < 0.70 :       665 elements
+Info    : 0.70 < quality < 0.80 :       963 elements
+Info    : 0.80 < quality < 0.90 :       607 elements
+Info    : 0.90 < quality < 1.00 :       154 elements
+Info    : 51 edge swaps, 2 node relocations (volume = 5138.21): worst = 0.218686 / average = 0.707007 (Wall 0.00495724s, CPU 0s)
+Info    : 55 edge swaps, 4 node relocations (volume = 5138.21): worst = 0.219917 / average = 0.707684 (Wall 0.00639331s, CPU 0s)
+Info    : 56 edge swaps, 6 node relocations (volume = 5138.21): worst = 0.219917 / average = 0.707913 (Wall 0.00728923s, CPU 0s)
+Info    : No ill-shaped tets in the mesh :-)
+Info    : 0.00 < quality < 0.10 :         0 elements
+Info    : 0.10 < quality < 0.20 :         0 elements
+Info    : 0.20 < quality < 0.30 :        27 elements
+Info    : 0.30 < quality < 0.40 :        68 elements
+Info    : 0.40 < quality < 0.50 :       115 elements
+Info    : 0.50 < quality < 0.60 :       361 elements
+Info    : 0.60 < quality < 0.70 :       662 elements
+Info    : 0.70 < quality < 0.80 :       973 elements
+Info    : 0.80 < quality < 0.90 :       618 elements
+Info    : 0.90 < quality < 1.00 :       149 elements
+Info    : Done optimizing mesh (Wall 0.0148021s, CPU 0.001779s)
+Info    : 949 nodes 5272 elements
+Generated 949 vertices, 2973 tetrahedra, 1826 material boundary triangles, 592 cavity triangles; cavity volume 1715.901 mm^3

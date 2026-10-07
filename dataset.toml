@@ -1,0 +1,19 @@
+# Dataset manifest for sofa/sofa
+# Add tasks using: harbor add <org>/<name>
+# Publish using: harbor publish
+
+[dataset]
+name = "sofa/sofa-benchmark"
+version = "1.0.0"
+description = ""
+authors = []
+keywords = []
+
+[[tasks]]
+name = "sofa/AccordionGeneration"
+digest = "sha256:a52bee61de7ada8f7de3f3294f78b66e9c7280b2ff1ef29087852f99521f1978"
+
+[[tasks]]
+name = "sofa/SoftFingerDesign"
+digest = "sha256:97ed0c2f77e2dc3a9dd1f6b353521b48fdea1f9142f54bce5d7e67d5abdd6e79"
+
